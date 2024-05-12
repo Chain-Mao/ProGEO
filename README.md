@@ -12,8 +12,7 @@ This is the official pyTorch implementation of the ICANN 2024 paper "ProGEO: Gen
 The paper presents a new dataset called San Francisco eXtra Large (SF-XL, go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9) to download it), and a highly scalable training method (called CosPlace), which allows to reach SOTA results with compact descriptors.
 
 
-[[ArXiv](https://arxiv.org/abs/2204.02287)]
-
+[[ArXiv](https://arxiv.org/abs/2204.afsf)]
 
 
 The images below represent respectively:
