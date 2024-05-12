@@ -13,16 +13,8 @@ This is the official pyTorch implementation of the ICANN 2024 paper "ProGEO: Gen
 
 [[ArXiv](https://arxiv.org/abs/2204.afsf)]
 
-
-The images below represent respectively:
-1) the map of San Francisco eXtra Large
-2) a visualization of how CosPlace Groups (read datasets) are formed
-3) results with CosPlace vs other methods on Pitts250k (CosPlace trained on SF-XL, others on Pitts30k)
-<p float="left">
-  <img src="https://github.com/gmberton/gmberton.github.io/blob/main/images/SF-XL%20map.jpg" height="150" />
-  <img src="https://github.com/gmberton/gmberton.github.io/blob/main/images/map_groups.png" height="150" /> 
-  <img src="https://github.com/gmberton/gmberton.github.io/blob/main/images/backbones_pitts250k_main.png" height="150" />
-</p>
+## Abstract
+Visual Geo-localization (VG) refers to the process to identify the location described in query images, which is widely applied in robotics field and computer vision tasks, such as autonomous driving, metaverse, augmented reality, and SLAM. In fine-grained images lacking specific text descriptions, directly applying pure visual methods to represent neighborhood features often leads to the model focusing on overly fine-grained features, unable to fully mine the semantic information in the images. Therefore, we propose a two-stage training method to enhance visual performance and use contrastive learning to mine challenging samples. We first leverage the multi-modal description capability of CLIP (Contrastive Language-Image Pretraining) to create a set of learnable text prompts for each geographic image feature to form vague descriptions. Then, by utilizing dynamic text prompts to assist the training of the image encoder, we enable the image encoder to learn better and more generalizable visual features. This strategy of applying text to purely visual tasks addresses the challenge of using multi-modal models for geographic images, which often suffer from a lack of precise descriptions, making them difficult to utilize widely. We validate the effectiveness of the proposed strategy on several large-scale visual geo-localization datasets, and our method achieves SOTA results on multiple visual geo-localization datasets.
 
 
 
