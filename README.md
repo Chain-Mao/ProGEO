@@ -12,7 +12,7 @@ This is the official pyTorch implementation of the ICANN 2024 paper "ProGEO: Gen
 The paper presents a new dataset called San Francisco eXtra Large (SF-XL, go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9) to download it), and a highly scalable training method (called CosPlace), which allows to reach SOTA results with compact descriptors.
 
 
-[[CVPR OpenAccess](https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Rethinking_Visual_Geo-Localization_for_Large-Scale_Applications_CVPR_2022_paper.html)] [[ArXiv](https://arxiv.org/abs/2204.02287)] [[Video](https://www.youtube.com/watch?v=oDyL6oVNN3I)] [[BibTex](https://github.com/gmberton/CosPlace#cite)]
+[[ArXiv](https://arxiv.org/abs/2204.02287)]
 
 
 
