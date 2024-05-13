@@ -22,6 +22,8 @@ To change the backbone or the output descriptors dimensionality simply run
 
 `$ python3 train.py --backbone ResNet50 --fc_output_dim 128`
 
+#### Stage2
+
 Run `$ python3 train.py -h` to have a look at all the hyperparameters that you can change. You will find all hyperparameters mentioned in the paper.
 
 #### Dataset size and lightweight version
