@@ -11,60 +11,35 @@ This repository contains the official python implementation for our paper at ICA
 
 [[ArXiv](https://arxiv.org/abs/2204.afsf)]
 
-## Train
+## Dateset
+
 Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9)).
-
-#### Stage1
-
-`$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1
-
-#### Stage2
-
-`$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1
-
-To change the backbone or the output descriptors dimensionality simply run 
-
-`$ python3 train.py --backbone CLIP-ViT-B-16 --fc_output_dim 128`
-
-Run `$ python3 train.py -h` to have a look at all the hyperparameters that you can change. You will find all hyperparameters mentioned in the paper.
-
-#### Dataset size and lightweight version
 
 The SF-XL dataset is about 1 TB.
 For training only a subset of the images is used, and you can use this subset for training, which is only 360 GB.
-If this is still too heavy for you (e.g. if you're using Colab), but you would like to run CosPlace, we also created a small version of SF-XL, which is only 5 GB.
-Obviously, using the small version will lead to lower results, and it should be used only for debugging / exploration purposes.
 More information on the dataset and lightweight version are on the README that you can find on the dataset download page (go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9) to find it).
 
-#### Reproducibility
-Results from the paper are fully reproducible, and we followed deep learning's best practices (average over multiple runs for the main results, validation/early stopping and hyperparameter search on the val set).
-If you are a researcher comparing your work against ours, please make sure to follow these best practices and avoid picking the best model on the test set.
 
+## Train
+
+#### Stage1
+
+`$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1`
+
+#### Stage2
+
+`$ python3 train_clip_stage2.py --train_set_folder path/to/processed/train --val_set_folder path/to/processed/val --test_set_folder path/to/processed/test --backbone CLIP-RN50 --fc_output_dim 1024 --prompt_learners path/to/logs/default/stage1/VIT16/last_prompt_learners.pth`
+
+To change the backbone or the output descriptors dimensionality simply run 
+
+`$ python3 train.py --backbone CLIP-ViT-B-16 --fc_output_dim 512`
+
+Run `$ python3 train.py -h` to have a look at all the hyperparameters that you can change. You will find all hyperparameters mentioned in the paper.
 
 ## Test
 You can test a trained model as such
 
-`$ python3 eval.py --backbone ResNet50 --fc_output_dim 128 --resume_model path/to/best_model.pth`
-
-You can download plenty of trained models below.
-
-
-### Visualize predictions
-
-Predictions can be easily visualized through the `num_preds_to_save` parameter. For example running this
-
-```
-python3 eval.py --backbone ResNet50 --fc_output_dim 512 --resume_model path/to/best_model.pth \
-    --num_preds_to_save=3 --exp_name=cosplace_on_stlucia
-```
-will generate under the path `./logs/cosplace_on_stlucia/*/preds` images such as
-
-<p float="left">
-  <img src="https://raw.githubusercontent.com/gmberton/VPR-methods-evaluation/master/images/pred.jpg"  height="200"/>
-</p>
-
-Given that saving predictions for each query might take long, you can also pass the parameter `--save_only_wrong_preds` which will save only predictions for wrongly predicted queries (i.e. where the first prediction is wrong), which should be the most interesting failure cases.
-
+`$ python3 eval.py --backbone CLIP-RN50 --resume_model path/to/best_model.pth --test_set_folder path/to/processed/test`
 
 ## Trained Models
 
@@ -141,8 +116,6 @@ As an alternative, you can download the trained models from the table below, whi
     <td>-</td>
   </tr>
 </table>
-
-Or you can download all models at once at [this link](https://drive.google.com/drive/folders/1WzSLnv05FLm-XqP5DxR5nXaaixH23uvV?usp=sharing)
 
 ## Issues
 If you have any questions regarding our code or model, feel free to open an issue or send an email to maochen981203@gmail.com
