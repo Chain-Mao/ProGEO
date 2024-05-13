@@ -32,7 +32,7 @@ More information on the dataset and lightweight version that you can find on the
 
 `$ python3 train_clip_stage2.py --train_set_folder path/to/processed/train --val_set_folder path/to/processed/val --test_set_folder path/to/processed/test --backbone CLIP-RN50 --fc_output_dim 1024 --prompt_learners path/to/logs/default/stage1/VIT16/last_prompt_learners.pth`
 
-To change the backbone or the output descriptors dimensionality simply run 
+To change the backbone and the output descriptors dimensionality simply run 
 
 `$ python3 train.py --backbone CLIP-ViT-B-16 --fc_output_dim 512`
 
@@ -45,7 +45,7 @@ You can test a trained model as such
 
 ## Model Zoo
 
-You can download the trained models from the table below, which provides links to models with different backbones and dimensionality of descriptors, trained on SF-XL.
+You can download the trained models from the table below, which provides links to models with different visual backbones and dimensionality of descriptors, trained on SF-XL.
 
 | Visual Model | Dimension | Link | Password |
 |----------|------|------|--------|
