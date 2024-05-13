@@ -15,7 +15,7 @@ This repository contains the official python implementation for our paper at ICA
 ## Train
 Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9)).
 
-### Stage1
+#### Stage1
 
 `$ python3 train_clip_stage1.py --train_set_folder path/to/sf_xl/raw/train/database --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test`
 
