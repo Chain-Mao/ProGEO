@@ -43,7 +43,7 @@ You can test a trained model as such
 
 `$ python3 eval.py --backbone CLIP-RN50 --resume_model path/to/best_model.pth --test_set_folder path/to/processed/test`
 
-## Trained Models
+## Model Zoo
 
 You can download the trained models from the table below, which provides links to models with different backbones and dimensionality of descriptors, trained on SF-XL.
 
