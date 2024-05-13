@@ -53,15 +53,6 @@ You can download the trained models from the table below, which provides links t
     <th colspan=7>Dimension of Descriptors</th>
   </tr>
   <tr>
-    <td>32</td>
-    <td>64</td>
-    <td>128</td>
-    <td>256</td>
-    <td>512</td>
-    <td>1024</td>
-    <td>2048</td>
-  </tr>
-  <tr>
     <td>ResNet-18</td>
     <td><a href="https://drive.google.com/file/d/1tfT8r2fBeMVAEHg2bVfCql5pV9YzK620/view?usp=sharing">link</a></td>
     <td><a href="https://drive.google.com/file/d/1-d_Yi3ly3bY6hUW1F9w144FFKsZtYBL4/view?usp=sharing">link</a></td>
