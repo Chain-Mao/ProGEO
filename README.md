@@ -15,20 +15,15 @@ This repository contains the official python implementation for our paper at ICA
 ## Train
 Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9)).
 
-After downloading the SF-XL dataset, simply run 
+### Stage1
 
-`$ python3 train.py --train_set_folder path/to/sf_xl/raw/train/database --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test`
+`$ python3 train_clip_stage1.py --train_set_folder path/to/sf_xl/raw/train/database --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test`
 
 the script automatically splits SF-XL in CosPlace Groups, and saves the resulting object in the folder `cache`.
-By default training is performed with a ResNet-18 with descriptors dimensionality 512, which fits in less than 4GB of VRAM.
 
 To change the backbone or the output descriptors dimensionality simply run 
 
 `$ python3 train.py --backbone ResNet50 --fc_output_dim 128`
-
-You can also speed up your training with Automatic Mixed Precision (note that all results/statistics from the paper did not use AMP)
-
-`$ python3 train.py --use_amp16`
 
 Run `$ python3 train.py -h` to have a look at all the hyperparameters that you can change. You will find all hyperparameters mentioned in the paper.
 
