@@ -149,7 +149,7 @@ As an alternative, you can download the trained models from the table below, whi
 Or you can download all models at once at [this link](https://drive.google.com/drive/folders/1WzSLnv05FLm-XqP5DxR5nXaaixH23uvV?usp=sharing)
 
 ## Issues
-If you have any questions regarding our code or dataset, feel free to open an issue or send an email to maochen981203@gmail.com
+If you have any questions regarding our code or model, feel free to open an issue or send an email to maochen981203@gmail.com
 
 ## Acknowledgements
 Parts of this repo are inspired by the following repositories:
