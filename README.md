@@ -49,10 +49,10 @@ You can download the trained models from the table below, which provides links t
 
 | 模型名称 | 维度 | 链接 |
 |----------|------|------|
-| 模型1    | 100x100 | [链接](https://example.com/model1) |
-| 模型2    | 200x200 | [链接](https://example.com/model2) |
-| 模型3    | 300x300 | [链接](https://example.com/model3) |
-| 模型4    | 400x400 | [链接](https://example.com/model4) |
+| CLIP-ResNet50  | 1024 | [链接](https://pan.baidu.com/s/1X9iGoVRy_Fc0HwTSUvclVQ) |
+| CLIP-ResNet101 | 512 | [链接](https://example.com/model2) |
+| CLIP-ViT-B-16  | 512 | [链接](https://example.com/model3) |
+| CLIP-ViT-B-32  | 512 | [链接](https://example.com/model4) |
 
 
 ## Issues
