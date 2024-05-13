@@ -47,8 +47,8 @@ You can test a trained model as such
 
 You can download the trained models from the table below, which provides links to models with different backbones and dimensionality of descriptors, trained on SF-XL.
 
-| 模型名称 | 维度 | 链接 |
-|----------|------|------|
+| 模型名称 | 维度 | 链接 | 提取码 |
+|----------|------|------|--------|
 | CLIP-ResNet50  | 1024 | [链接](https://pan.baidu.com/s/1X9iGoVRy_Fc0HwTSUvclVQ) |
 | CLIP-ResNet101 | 512 | [链接](https://example.com/model2) |
 | CLIP-ViT-B-16  | 512 | [链接](https://example.com/model3) |
