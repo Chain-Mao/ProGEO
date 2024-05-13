@@ -43,13 +43,7 @@ You can test a trained model as such
 
 ## Trained Models
 
-We now have all our trained models on [PyTorch Hub](https://pytorch.org/docs/stable/hub.html), so that you can use them in any codebase without cloning this repository simply like this
-```
-import torch
-model = torch.hub.load("gmberton/cosplace", "get_trained_model", backbone="ResNet50", fc_output_dim=2048)
-```
-
-As an alternative, you can download the trained models from the table below, which provides links to models with different backbones and dimensionality of descriptors, trained on SF-XL.
+You can download the trained models from the table below, which provides links to models with different backbones and dimensionality of descriptors, trained on SF-XL.
 
 <table>
   <tr>
