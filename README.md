@@ -16,13 +16,15 @@ Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, g
 
 #### Stage1
 
-`$ python3 train_clip_stage1.py --train_set_folder path/to/sf_xl/raw/train/database --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test`
+`$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1
+
+#### Stage2
+
+`$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1
 
 To change the backbone or the output descriptors dimensionality simply run 
 
-`$ python3 train.py --backbone ResNet50 --fc_output_dim 128`
-
-#### Stage2
+`$ python3 train.py --backbone CLIP-ViT-B-16 --fc_output_dim 128`
 
 Run `$ python3 train.py -h` to have a look at all the hyperparameters that you can change. You will find all hyperparameters mentioned in the paper.
 
