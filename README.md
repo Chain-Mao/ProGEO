@@ -19,8 +19,6 @@ Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, g
 
 `$ python3 train_clip_stage1.py --train_set_folder path/to/sf_xl/raw/train/database --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test`
 
-the script automatically splits SF-XL in CosPlace Groups, and saves the resulting object in the folder `cache`.
-
 To change the backbone or the output descriptors dimensionality simply run 
 
 `$ python3 train.py --backbone ResNet50 --fc_output_dim 128`
