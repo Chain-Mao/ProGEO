@@ -19,7 +19,7 @@ Firstly, you can download the dataset called San Francisco eXtra Large (SF-XL, g
 
 The SF-XL dataset is about 1 TB.
 For training only a subset of the images is used, and you can use this subset for training, which is only 360 GB.
-More information on the dataset and lightweight version are on the README that you can find on the dataset download page (go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9) to find it).
+More information on the dataset and lightweight version that you can find on the dataset download page (go [_here_](https://forms.gle/wpyDzhDyoWLQygAT9)).
 
 
 ## Train
