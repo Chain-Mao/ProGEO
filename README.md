@@ -49,9 +49,9 @@ Run `$ python3 train.py -h` to have a look at all the hyperparameters that you c
 
 ## Test
 
-<img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/visual.png">
-
 You can test a trained model as such
+
+<img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/visual.png">
 
 `$ python3 eval.py --backbone CLIP-RN50 --resume_model path/to/best_model.pth --test_set_folder path/to/processed/test`
 
