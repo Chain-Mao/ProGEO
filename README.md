@@ -32,7 +32,7 @@ More information on the dataset and lightweight version that you can find on the
 
 #### Stage1
 
-<img align="center" width="100%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage1.png">
+<img align="center" width="100%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage1.png" height="400">
 
 `$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1`
 
