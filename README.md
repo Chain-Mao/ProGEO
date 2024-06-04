@@ -32,13 +32,13 @@ More information on the dataset and lightweight version that you can find on the
 
 #### Stage1
 
-<img align="center" width="100%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage1.png">
+<img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage1.png">
 
 `$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1`
 
 #### Stage2
 
-<img align="center" width="100%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage2.png">
+<img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage2.png">
 
 `$ python3 train_clip_stage2.py --train_set_folder path/to/processed/train --val_set_folder path/to/processed/val --test_set_folder path/to/processed/test --backbone CLIP-RN50 --fc_output_dim 1024 --prompt_learners path/to/logs/default/stage1/VIT16/last_prompt_learners.pth`
 
@@ -50,7 +50,7 @@ Run `$ python3 train.py -h` to have a look at all the hyperparameters that you c
 
 ## Test
 
-<img align="center" width="100%" src="https://github.com/Chain-Mao/ProGEO/blob/main/visual.png">
+<img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/visual.png">
 
 You can test a trained model as such
 
