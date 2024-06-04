@@ -29,6 +29,8 @@ The purpose of the first stage training is to generate prompts that describe the
 
 <img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage1.png">
 
+After downloading the SF-XL dataset, you can start the stage1 training as such
+
 `$ python3 train_clip_stage1.py --train_set_folder path/to/processed/train --val_set_folder path/to/sf_xl/processed/val --test_set_folder path/to/sf_xl/processed/test --backbone CLIP-RN50 --groups_num 1`
 
 #### Stage2
@@ -36,6 +38,8 @@ The purpose of the first stage training is to generate prompts that describe the
 The purpose of the second stage training is to use prompts to assist the image model to complete the clustering.
 
 <img align="center" width="80%" src="https://github.com/Chain-Mao/ProGEO/blob/main/stage2.png">
+
+After generating the prompts through stage1 training, you can start the stage2 training as such
 
 `$ python3 train_clip_stage2.py --train_set_folder path/to/processed/train --val_set_folder path/to/processed/val --test_set_folder path/to/processed/test --backbone CLIP-RN50 --fc_output_dim 1024 --prompt_learners path/to/logs/default/stage1/VIT16/last_prompt_learners.pth`
 
