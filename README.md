@@ -2,7 +2,7 @@
 
 <b>ProGEO: Generating Prompts through Image-Text Contrastive Learning For Visual Geo-localization</b>
 
-This repository contains the official python implementation for our paper at ICANN 2024 "ProGEO: Generating Prompts through Image-Text Contrastive Learning For Visual Geo-localization, Chen Mao, Jingqi Hu et al". the paper are available at [here](https://arxiv.org/abs/2406.01906).
+This repository contains the official python implementation for our paper at ICANN 2024 "ProGEO: Generating Prompts through Image-Text Contrastive Learning For Visual Geo-localization, Chen Mao, Jingqi Hu et al". Our paper are available at [here](https://arxiv.org/abs/2406.01906).
 
 ## Introduction
 
