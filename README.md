@@ -83,3 +83,24 @@ Parts of this repo are inspired by the following repositories:
 - [CoOp in PyTorch](https://github.com/KaiyangZhou/CoOp)
 - [Cosplace in PyTorch](https://github.com/gmberton/CosPlace)
 - [Visual Geo-localization benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark)
+
+## Cite
+Here is the bibtex to cite our paper
+```
+@ARTICLE{2024arXiv240601906M,
+       author = {{Mao}, Chen and {Hu}, Jingqi},
+        title = "{ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Information Retrieval},
+         year = 2024,
+        month = jun,
+          eid = {arXiv:2406.01906},
+        pages = {arXiv:2406.01906},
+          doi = {10.48550/arXiv.2406.01906},
+archivePrefix = {arXiv},
+       eprint = {2406.01906},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240601906M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
