@@ -1,3 +1,9 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-msls)](https://paperswithcode.com/sota/visual-place-recognition-on-msls?p=progeo-generating-prompts-through-image-text)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-pittsburgh-30k)](https://paperswithcode.com/sota/visual-place-recognition-on-pittsburgh-30k?p=progeo-generating-prompts-through-image-text)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-sf-xl-test-v1)](https://paperswithcode.com/sota/visual-place-recognition-on-sf-xl-test-v1?p=progeo-generating-prompts-through-image-text)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-sf-xl-test-v2)](https://paperswithcode.com/sota/visual-place-recognition-on-sf-xl-test-v2?p=progeo-generating-prompts-through-image-text)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-st-lucia)](https://paperswithcode.com/sota/visual-place-recognition-on-st-lucia?p=progeo-generating-prompts-through-image-text)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/progeo-generating-prompts-through-image-text/visual-place-recognition-on-tokyo247)](https://paperswithcode.com/sota/visual-place-recognition-on-tokyo247?p=progeo-generating-prompts-through-image-text)
 # ProGEO
 
 <b>ProGEO: Generating Prompts through Image-Text Contrastive Learning For Visual Geo-localization</b>
