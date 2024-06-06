@@ -85,7 +85,7 @@ Parts of this repo are inspired by the following repositories:
 - [Visual Geo-localization benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark)
 
 ## Cite
-Here is the bibtex to cite our paper
+Here is the bibtex to cite our arxiv paper, the version published by Springer will be cited after official publication.
 ```
 @ARTICLE{2024arXiv240601906M,
        author = {{Mao}, Chen and {Hu}, Jingqi},
